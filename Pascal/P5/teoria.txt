@@ -1,0 +1,30 @@
+1) ¿Qué se define como memoria estática?
+2) ¿Qué se define como memoria dinámica?
+3) ¿Qué es una variable de tipo puntero?
+4) ¿Qué hace la operación “NEW” aplicada en una variable del tipo puntero?
+5) ¿Qué hace la operación “DISPOSE” aplicada en una variable del tipo puntero?
+
+1- La memoria estática es aquella que se reserva durante la declaración de variables en un programa. Recibe dicho nombre ya que no puede alterarse
+durante la ejecución del mismo.
+
+2- La memoria dinámica es aquella que se reserva durante la ejecución del programa. Como indica su nombre, el espacio almacenado puede variar
+mientras se ejecuta el programa. Esta memoria debe luego liberarse.
+
+3- Un puntero es un tipo de dato simple definido por el lenguaje que almacena una dirección de memoria dinámica. 
+En dicha dirección se puede almacenar un valor de cualquier tipo de dato visto.
+
+4-La operacion new(puntero) permite asignarle a la variable una dirección de memoria dinámica. Es decir, vincularla con determinado espacio de
+memoria dinámica. Esto implica reservar espacio en dicha dirección.
+
+5- La operación dispose(puntero) limpia la dirección de memoria reservada para el puntero y elimina el valor de este (la dirección de memoria).
+Es decir, elimina el valor almacenado en memoria dinámica y desvincula al puntero de dicha dirección.
+
+TIPO            CANTIDAD DE BYTES
+Entero          2 bytes
+Real            4 bytes
+Char            1 byte
+String          Tantos bytes como indique la longitud del String + 1
+Record          La suma de las longitudes de los campos del registro
+Puntero         4 bytes
+Boolean         1 byte
+Array           Tipo de dato x cantidad de datos
