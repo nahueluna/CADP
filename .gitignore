@@ -1,0 +1,10 @@
+#Ignora todo
+*
+#Anula la ignorancia de los directorios
+!*.*
+!*/
+#Ignora los .o
+*.o
+*.exe
+*.pdf
+*/Pruebas
